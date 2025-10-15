@@ -21,7 +21,7 @@ public class Challenge2_SumOfMatrix {
         int[] rowSum = new int[rows];
         int[] colSum = new int[cols];
 
-        // Calculate row and column sums
+        // Calculates row and column sums
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < cols; j++) {
                 rowSum[i] += matrix[i][j];
